@@ -39,6 +39,18 @@ var FinancialsSchema = new Schema({
 	created:{
 		type: Date,
 		default: Date.now	
+	},
+	age:{
+		type: Number,
+		default: null
+	},
+	gender:{
+		type: String,
+		default: null
+	},
+	income:{
+		type: Number,
+		default: null
 	}
 });
 
