@@ -1,0 +1,7 @@
+doctype
+html
+	head
+		title #{title}
+	body
+		img(src="/img/logo.jpg", alt="logo")
+		h1 #{title}

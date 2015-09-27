@@ -1,0 +1,8 @@
+<section ng-controller="ExampleController">
+	<div>
+		<p>This site is used for the application.</p>
+		<ul>
+			<li><a href="/api/financials">Get all data</a></li>		
+		</ul>
+	</div>
+</section>

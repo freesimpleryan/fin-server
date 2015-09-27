@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org">
+	<head>
+		<title><%= title %></title>
+	</head>
+	<body>
+		<img src="img/logo.jpg" alt="Logo"></img>
+		
+		<h1><%= title %></h1>
+		
+		<section ng-view></section>
+	</body>
+</html>
+		

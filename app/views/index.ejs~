@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns:ng="http://angularjs.org">
+	<head>
+		<title><%= title %></title>
+	</head>
+	<body>
+		<img src="img/logo.jpg" alt="Logo"></img>
+		
+		<h1><%= title %></h1>
+		
+		<section ng-view></section>		
+		
+		<script type="text/javascript" src="/lib/fabric/dist/fabric.min.js"></script>
+		<script type="text/javascript" src="/lib/angular/angular.js"></script>
+		<script type="text/javascript" src="/lib/angular-route/angular-route.js"></script>
+		<script type="text/javascript" src="/lib/angular-resource/angular-resource.js"></script>
+		
+		<script type="text/javascript" src="/index/controllers/index.client.controller.js"></script>		
+		<script type="text/javascript" src="/index/config/index.client.routes.js"></script>		
+		
+		<script type="text/javascript" src="/application.js"></script>
+				
+	</body>
+</html>
