@@ -21,7 +21,13 @@ exports.postResults = function(req, res){
 				return res.status(400).send({message:getErrorMessage(err)});			
 			}
 			else{
-				res.json(financials);	
+				var results = {
+					id: financials.id,
+					totalMonthlyNeed: financials.totalMonthlyNeed,
+					totalMonthlyWant: financials.totalMonthlyWant,
+					income: financials.income
+				};
+				res.json(results);	
 			}
 	})
 };
